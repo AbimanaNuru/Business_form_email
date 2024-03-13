@@ -1,0 +1,35 @@
+README
+
+Form Validation with Dynamic Field Display
+This project is a simple form validation example with dynamic field display using HTML, CSS, JavaScript, and jQuery.
+
+Overview
+The form consists of several fields that require validation before submission. Additionally, there's a dynamic field that is displayed based on the selection made in another field.
+
+Features
+Form Validation: Validates various fields such as Identification Document Number, Passport Number, TIN Number, etc., ensuring that they meet specific criteria.
+Dynamic Field Display: Shows/hides the "Specify purpose of importation" field based on the selection made in the "Importation details" field.
+How to Use
+Clone the Repository:
+git clone <git@github.com:AbimanaNuru/Business_form_email.git>
+Open index.html in your Browser:
+Open the index.html file in your preferred web browser to access the form.
+
+Fill out the Form:
+Fill out the form fields. The "Specify purpose of importation" field will be displayed only if "other" is selected in the "Importation details" field.
+
+Submit the Form:
+Click on the "Submit" button to submit the form. Validation messages will be displayed if any of the fields are invalid.
+
+Technologies Used
+HTML
+CSS (Bootstrap for styling)
+JavaScript
+jQuery
+php
+phpmailer
+Files Included
+includes folder
+index.php: The main HTML file containing the form.
+style.css: CSS file for styling the form.
+main.js: JavaScript file containing form validation and dynamic field display logic.
