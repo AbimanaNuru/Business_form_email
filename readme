@@ -29,7 +29,16 @@ jQuery
 php
 phpmailer
 Files Included
-includes folder
-index.php: The main HTML file containing the form.
-style.css: CSS file for styling the form.
-main.js: JavaScript file containing form validation and dynamic field display logic.
+includes/
+
+header.php
+footer.php
+email.php
+
+css/
+style.css
+
+javascript/
+main.js
+
+index.php
