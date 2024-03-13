@@ -44,11 +44,11 @@ if (isset($_POST['submit'])) {
 
 
 
-        $mail->isSMTP(); // 
+        $mail->isSMTP(); // Here we will use the hostingerSMTP
         $mail->Host = 'smtp.hostinger.com'; // We use hostinger
         $mail->SMTPAuth = true; // Enable SMTP authentication
-        $mail->Username = 'nuruabimana@abelia.rw'; // My Hostinger Email address
-        $mail->Password = 'Rwanda@123'; // My Password      
+        $mail->Username = 'example@nuru.rw'; // Provide your Hostinger Email address
+        $mail->Password = ''; // provide your Password      
         $mail->SMTPSecure = 'tls'; // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587; // TCP port to connect to
 
